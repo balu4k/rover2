@@ -7,7 +7,7 @@ GPIO.setup(13, GPIO.OUT)
 
 
 for x in range(0,100):
-    print("Starting the program now")
+    print("Starting the program now 123")
     GPIO.output(7, True)
     print("Lights 1 on")
     time.sleep(.1)
